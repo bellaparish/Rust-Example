@@ -7,9 +7,9 @@ pub fn run() {
     //println!("Args: {:?}",command);
 
     if command == "Hello" {
-        println!("Hello {}",name);
+        println!("Hello {}", name);
     } else if command == "Status" {
-        println!("Status is {}",status)
+        println!("Status is {}", status)
     } else {
         println!("That is not a valid command!");
     }
